@@ -44,7 +44,7 @@ public class eLogoView extends ImageView {
 		context = con;
 		new Handler();
 	}
-
+	
 	public void onSizeChanged(int w, int h, int oldW, int oldH) {
 		// Set the boundaries for the canvas
 		xMax = w - 1;
